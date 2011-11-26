@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD81A8C714809A8800D48BDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD81A8C614809A8800D48BDA /* UIKit.framework */; };
+		FD81A8C914809A8800D48BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD81A8C814809A8800D48BDA /* Foundation.framework */; };
+		FD81A8CB14809A8800D48BDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD81A8CA14809A8800D48BDA /* CoreGraphics.framework */; };
+		FD81A8D114809A8800D48BDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD81A8CF14809A8800D48BDA /* InfoPlist.strings */; };
+		FD81A8D314809A8800D48BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD81A8D214809A8800D48BDA /* main.m */; };
+		FD81A8D714809A8800D48BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD81A8D614809A8800D48BDA /* AppDelegate.m */; };
+		FD81A8DA14809A8800D48BDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD81A8D914809A8800D48BDA /* ViewController.m */; };
+		FD81A8DD14809A8800D48BDA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD81A8DB14809A8800D48BDA /* ViewController.xib */; };
+		FD81A8F814809AE400D48BDA /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FD81A8E914809AE400D48BDA /* backButton.png */; };
+		FD81A8F914809AE400D48BDA /* decimal.png in Resources */ = {isa = PBXBuildFile; fileRef = FD81A8EA14809AE400D48BDA /* decimal.png */; };
+		FD81A8FA14809AE400D48BDA /* number0.png in Resources */ = {isa = PBXBuildFile; fileRef = FD81A8EB14809AE400D48BDA /* number0.png */; };
+		FD81A8FB14809AE400D48BDA /* number1.png in Resources */ = {isa = PBXBuildFile; fileRef = FD81A8EC14809AE400D48BDA /* number1.png */; };
+		FD81A8FC14809AE400D48BDA /* number2.png in Resources */ = {isa = PBXBuildFile; fileRef = FD81A8ED14809AE400D48BDA /* number2.png */; };
+		FD81A8FD14809AE400D48BDA /* number3.png in Resources */ = {isa = PBXBuildFile; fileRef = FD81A8EE14809AE400D48BDA /* number3.png */; };
+		FD81A8FE14809AE400D48BDA /* number4.png in Resources */ = {isa = PBXBuildFile; fileRef = FD81A8EF14809AE400D48BDA /* number4.png */; };
+		FD81A8FF14809AE400D48BDA /* number5.png in Resources */ = {isa = PBXBuildFile; fileRef = FD81A8F014809AE400D48BDA /* number5.png */; };
+		FD81A90014809AE400D48BDA /* number6.png in Resources */ = {isa = PBXBuildFile; fileRef = FD81A8F114809AE400D48BDA /* number6.png */; };
+		FD81A90114809AE400D48BDA /* number7.png in Resources */ = {isa = PBXBuildFile; fileRef = FD81A8F214809AE400D48BDA /* number7.png */; };
+		FD81A90214809AE400D48BDA /* number8.png in Resources */ = {isa = PBXBuildFile; fileRef = FD81A8F314809AE400D48BDA /* number8.png */; };
+		FD81A90314809AE400D48BDA /* number9.png in Resources */ = {isa = PBXBuildFile; fileRef = FD81A8F414809AE400D48BDA /* number9.png */; };
+		FD81A90414809AE400D48BDA /* toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = FD81A8F514809AE400D48BDA /* toolbar.png */; };
+		FD81A90A14809B0900D48BDA /* CLKeypad.m in Sources */ = {isa = PBXBuildFile; fileRef = FD81A90714809B0900D48BDA /* CLKeypad.m */; };
+		FD81A90B14809B0900D48BDA /* CLToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FD81A90914809B0900D48BDA /* CLToolbar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD81A8C214809A8800D48BDA /* CLKeypadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLKeypadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD81A8C614809A8800D48BDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD81A8C814809A8800D48BDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD81A8CA14809A8800D48BDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD81A8CE14809A8800D48BDA /* CLKeypadDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CLKeypadDemo-Info.plist"; sourceTree = "<group>"; };
+		FD81A8D014809A8800D48BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD81A8D214809A8800D48BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD81A8D414809A8800D48BDA /* CLKeypadDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLKeypadDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FD81A8D514809A8800D48BDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD81A8D614809A8800D48BDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD81A8D814809A8800D48BDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD81A8D914809A8800D48BDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD81A8DC14809A8800D48BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FD81A8E914809AE400D48BDA /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		FD81A8EA14809AE400D48BDA /* decimal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decimal.png; sourceTree = "<group>"; };
+		FD81A8EB14809AE400D48BDA /* number0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number0.png; sourceTree = "<group>"; };
+		FD81A8EC14809AE400D48BDA /* number1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number1.png; sourceTree = "<group>"; };
+		FD81A8ED14809AE400D48BDA /* number2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number2.png; sourceTree = "<group>"; };
+		FD81A8EE14809AE400D48BDA /* number3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number3.png; sourceTree = "<group>"; };
+		FD81A8EF14809AE400D48BDA /* number4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number4.png; sourceTree = "<group>"; };
+		FD81A8F014809AE400D48BDA /* number5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number5.png; sourceTree = "<group>"; };
+		FD81A8F114809AE400D48BDA /* number6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number6.png; sourceTree = "<group>"; };
+		FD81A8F214809AE400D48BDA /* number7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number7.png; sourceTree = "<group>"; };
+		FD81A8F314809AE400D48BDA /* number8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number8.png; sourceTree = "<group>"; };
+		FD81A8F414809AE400D48BDA /* number9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number9.png; sourceTree = "<group>"; };
+		FD81A8F514809AE400D48BDA /* toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbar.png; sourceTree = "<group>"; };
+		FD81A90614809B0900D48BDA /* CLKeypad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLKeypad.h; sourceTree = "<group>"; };
+		FD81A90714809B0900D48BDA /* CLKeypad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLKeypad.m; sourceTree = "<group>"; };
+		FD81A90814809B0900D48BDA /* CLToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLToolbar.h; sourceTree = "<group>"; };
+		FD81A90914809B0900D48BDA /* CLToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLToolbar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD81A8BF14809A8800D48BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD81A8C714809A8800D48BDA /* UIKit.framework in Frameworks */,
+				FD81A8C914809A8800D48BDA /* Foundation.framework in Frameworks */,
+				FD81A8CB14809A8800D48BDA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD81A8B714809A8800D48BDA = {
+			isa = PBXGroup;
+			children = (
+				FD81A8CC14809A8800D48BDA /* CLKeypadDemo */,
+				FD81A8C514809A8800D48BDA /* Frameworks */,
+				FD81A8C314809A8800D48BDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD81A8C314809A8800D48BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD81A8C214809A8800D48BDA /* CLKeypadDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD81A8C514809A8800D48BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD81A8C614809A8800D48BDA /* UIKit.framework */,
+				FD81A8C814809A8800D48BDA /* Foundation.framework */,
+				FD81A8CA14809A8800D48BDA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD81A8CC14809A8800D48BDA /* CLKeypadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FD81A90514809B0900D48BDA /* CLKeypad */,
+				FD81A8E814809AE400D48BDA /* images */,
+				FD81A8D514809A8800D48BDA /* AppDelegate.h */,
+				FD81A8D614809A8800D48BDA /* AppDelegate.m */,
+				FD81A8D814809A8800D48BDA /* ViewController.h */,
+				FD81A8D914809A8800D48BDA /* ViewController.m */,
+				FD81A8DB14809A8800D48BDA /* ViewController.xib */,
+				FD81A8CD14809A8800D48BDA /* Supporting Files */,
+			);
+			path = CLKeypadDemo;
+			sourceTree = "<group>";
+		};
+		FD81A8CD14809A8800D48BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD81A8CE14809A8800D48BDA /* CLKeypadDemo-Info.plist */,
+				FD81A8CF14809A8800D48BDA /* InfoPlist.strings */,
+				FD81A8D214809A8800D48BDA /* main.m */,
+				FD81A8D414809A8800D48BDA /* CLKeypadDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD81A8E814809AE400D48BDA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FD81A8E914809AE400D48BDA /* backButton.png */,
+				FD81A8EA14809AE400D48BDA /* decimal.png */,
+				FD81A8EB14809AE400D48BDA /* number0.png */,
+				FD81A8EC14809AE400D48BDA /* number1.png */,
+				FD81A8ED14809AE400D48BDA /* number2.png */,
+				FD81A8EE14809AE400D48BDA /* number3.png */,
+				FD81A8EF14809AE400D48BDA /* number4.png */,
+				FD81A8F014809AE400D48BDA /* number5.png */,
+				FD81A8F114809AE400D48BDA /* number6.png */,
+				FD81A8F214809AE400D48BDA /* number7.png */,
+				FD81A8F314809AE400D48BDA /* number8.png */,
+				FD81A8F414809AE400D48BDA /* number9.png */,
+				FD81A8F514809AE400D48BDA /* toolbar.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		FD81A90514809B0900D48BDA /* CLKeypad */ = {
+			isa = PBXGroup;
+			children = (
+				FD81A90614809B0900D48BDA /* CLKeypad.h */,
+				FD81A90714809B0900D48BDA /* CLKeypad.m */,
+				FD81A90814809B0900D48BDA /* CLToolbar.h */,
+				FD81A90914809B0900D48BDA /* CLToolbar.m */,
+			);
+			path = CLKeypad;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD81A8C114809A8800D48BDA /* CLKeypadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD81A8E014809A8800D48BDA /* Build configuration list for PBXNativeTarget "CLKeypadDemo" */;
+			buildPhases = (
+				FD81A8BE14809A8800D48BDA /* Sources */,
+				FD81A8BF14809A8800D48BDA /* Frameworks */,
+				FD81A8C014809A8800D48BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLKeypadDemo;
+			productName = CLKeypadDemo;
+			productReference = FD81A8C214809A8800D48BDA /* CLKeypadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD81A8B914809A8800D48BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Cayden Liew - http://caydenliew.com";
+			};
+			buildConfigurationList = FD81A8BC14809A8800D48BDA /* Build configuration list for PBXProject "CLKeypadDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD81A8B714809A8800D48BDA;
+			productRefGroup = FD81A8C314809A8800D48BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD81A8C114809A8800D48BDA /* CLKeypadDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD81A8C014809A8800D48BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD81A8D114809A8800D48BDA /* InfoPlist.strings in Resources */,
+				FD81A8DD14809A8800D48BDA /* ViewController.xib in Resources */,
+				FD81A8F814809AE400D48BDA /* backButton.png in Resources */,
+				FD81A8F914809AE400D48BDA /* decimal.png in Resources */,
+				FD81A8FA14809AE400D48BDA /* number0.png in Resources */,
+				FD81A8FB14809AE400D48BDA /* number1.png in Resources */,
+				FD81A8FC14809AE400D48BDA /* number2.png in Resources */,
+				FD81A8FD14809AE400D48BDA /* number3.png in Resources */,
+				FD81A8FE14809AE400D48BDA /* number4.png in Resources */,
+				FD81A8FF14809AE400D48BDA /* number5.png in Resources */,
+				FD81A90014809AE400D48BDA /* number6.png in Resources */,
+				FD81A90114809AE400D48BDA /* number7.png in Resources */,
+				FD81A90214809AE400D48BDA /* number8.png in Resources */,
+				FD81A90314809AE400D48BDA /* number9.png in Resources */,
+				FD81A90414809AE400D48BDA /* toolbar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD81A8BE14809A8800D48BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD81A8D314809A8800D48BDA /* main.m in Sources */,
+				FD81A8D714809A8800D48BDA /* AppDelegate.m in Sources */,
+				FD81A8DA14809A8800D48BDA /* ViewController.m in Sources */,
+				FD81A90A14809B0900D48BDA /* CLKeypad.m in Sources */,
+				FD81A90B14809B0900D48BDA /* CLToolbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD81A8CF14809A8800D48BDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD81A8D014809A8800D48BDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FD81A8DB14809A8800D48BDA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD81A8DC14809A8800D48BDA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD81A8DE14809A8800D48BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD81A8DF14809A8800D48BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD81A8E114809A8800D48BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CLKeypadDemo/CLKeypadDemo-Prefix.pch";
+				INFOPLIST_FILE = "CLKeypadDemo/CLKeypadDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD81A8E214809A8800D48BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CLKeypadDemo/CLKeypadDemo-Prefix.pch";
+				INFOPLIST_FILE = "CLKeypadDemo/CLKeypadDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD81A8BC14809A8800D48BDA /* Build configuration list for PBXProject "CLKeypadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD81A8DE14809A8800D48BDA /* Debug */,
+				FD81A8DF14809A8800D48BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD81A8E014809A8800D48BDA /* Build configuration list for PBXNativeTarget "CLKeypadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD81A8E114809A8800D48BDA /* Debug */,
+				FD81A8E214809A8800D48BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD81A8B914809A8800D48BDA /* Project object */;
+}
